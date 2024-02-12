@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>servlet2.5</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Servlet Exemplo 25</display-name>
+    <servlet-name>Servlet Exemplo 25</servlet-name>
+    <servlet-class>com.edu.rafael.ServletExemplo25</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet Exemplo 25</servlet-name>
+    <url-pattern>/exemplo25</url-pattern>
+  </servlet-mapping>
+</web-app>
+<!-- o eclipse seleciona uma lista de possíveis páginas iniciais para o projeto, cada
+uma representando uma configuração. -->
+<!-- Ao escrever uma url no browser, lgum arquivo foi excutado, o servidor irá procurar pelo index.html
+e depois o index.htm, e assim por diante. Se ainda assim o servidor não achar nada ele retornará um erro.
+Em muitos casos será dito o arquivo que estamos trabalhando. -->
